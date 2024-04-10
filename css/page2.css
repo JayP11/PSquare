@@ -1,0 +1,175 @@
+.part1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_style {
+  height: 115px;
+  width: 400px;
+  padding: 2rem 0;
+}
+
+.logo_style_inner {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .design_style_main {
+  position: relative;
+} */
+
+.design_style_inner {
+  position: absolute;
+  top: 0;
+  height: 100px;
+  right: 10px;
+}
+/* .design1_style_inner {
+  position: absolute;
+  transform: rotate(180deg);
+  height: 100px;
+  left: 10px;
+} */
+
+.part2 {
+  padding: 2rem;
+  background: #31b44b;
+  margin: 2rem;
+  border-radius: 10px;
+  color: white;
+  /* position: absolute; */
+  display: flex;
+  gap: 1rem;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.part2_details_main {
+  width: 60%;
+}
+
+.part2_details {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.credit_card_img_main {
+  height: 200px;
+  width: 350px;
+  position: relative;
+}
+.credit_card_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.credit_card_details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+  justify-content: space-between;
+}
+.credit_card_details_head {
+  color: #31b44b;
+  padding: 1rem 1.5rem;
+  font-size: 20px;
+}
+
+.credit_card_details_inner_main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.credit_card_details_inner {
+  padding-left: 1.5rem;
+}
+
+.part3 .part4 {
+  /* padding: 2rem; */
+  /* background:lightgray; */
+  margin: 2rem;
+  /* border-radius: 10px; */
+  /* color: white; */
+  /* display: flex; */
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.part3_head {
+  display: flex;
+  justify-content: center;
+}
+
+.part3_head_inner {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.services_box_top {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.services_box_main {
+  width: 100%;
+  background-color: #cccccc;
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.services_box_inner {
+  display: flex;
+  gap: 1rem;
+}
+
+.services_detail_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 155px;
+  text-align: center;
+}
+
+.services_icon_inner {
+  height: 70px;
+}
+
+.part5 {
+  margin: 2rem;
+  background: #31b44b;
+  border-radius: 10px;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.part5_sec1 {
+  display: flex;
+}
+
+.part5_details {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.part5_icon_inner {
+  height: 20px;
+}
+h4 {
+  margin-bottom: 0px;
+}

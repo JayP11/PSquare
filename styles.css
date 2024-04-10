@@ -1,0 +1,52 @@
+.part1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_style {
+  height: 115px;
+  width: 400px;
+  padding: 2rem 0;
+}
+.logo_style_inner {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.design_style_main {
+  position: relative;
+}
+.design_style_inner {
+  position: absolute;
+  top: 0;
+  height: 100px;
+  right: 10px;
+  /* width: 100px; */
+  /* object-fit: cover; */
+}
+.design1_style_inner {
+  position: absolute;
+  transform: rotate(180deg);
+  height: 100px;
+  left: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* width: 100%; */
+  text-align: center;
+  margin: 0.5rem;
+}
+
+th {
+  background-color: #993303;
+  color: white;
+  padding: 0.5rem;
+  font-style: italic;
+}
+td {
+  padding: 1rem;
+}
